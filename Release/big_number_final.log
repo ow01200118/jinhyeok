@@ -1,0 +1,27 @@
+﻿  bigint_addition.c
+  bigint_allocation.c
+  bigint_division.c
+bigint_division.c(178): warning C4305: '=': 'unsigned int'에서 'WORD'(으)로 잘립니다.
+  bigint_multiplication.c
+  bigint_need.c
+bigint_need.c(164): warning C4477: 'printf' : 서식 문자열 '%016llx'에 'unsigned __int64' 형식의 인수가 필요하지만 variadic 인수 1의 형식이 'int'입니다.
+  bigint_need.c(164): note: 서식 문자열에서 '%x'을(를) 사용하는 것이 좋습니다.
+  bigint_need.c(164): note: 서식 문자열에서 '%Ix'을(를) 사용하는 것이 좋습니다.
+  bigint_need.c(164): note: 서식 문자열에서 '%I32x'을(를) 사용하는 것이 좋습니다.
+  bigint_shift_mod.c
+  bigint_square.c
+  bigint_subtraction.c
+bigint_subtraction.c(25): warning C4305: '=': 'unsigned int'에서 'WORD'(으)로 잘립니다.
+bigint_subtraction.c(247): warning C4305: '=': 'unsigned int'에서 'WORD'(으)로 잘립니다.
+  char_to_word.c
+  main.c
+main.c(45): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.16299.0\ucrt\stdio.h(1272): note: 'scanf' 선언을 참조하십시오.
+main.c(47): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.16299.0\ucrt\stdio.h(1272): note: 'scanf' 선언을 참조하십시오.
+  코드를 생성하고 있습니다.
+  34 of 43 functions (79.1%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    0 functions had inline decision re-evaluated but remain unchanged
+  코드를 생성했습니다.
+  big_number_final.vcxproj -> C:\Users\오진혁\source\repos\big_number_final\Release\big_number_final.exe
